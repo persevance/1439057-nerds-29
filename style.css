@@ -1,0 +1,738 @@
+/* Global */
+}
+head {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  background-color: #EEEEEE, 100 %
+}
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.main-header-logo {
+  position: absolute;
+width: 159.87px;
+height: 65.02px;
+left: 140px;
+top: 48.98px;
+}
+.site-navigation {
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 437px;
+height: 30px;
+left: 502px;
+top: 75px;
+}
+.features {
+  position: absolute;
+width: 538px;
+height: 111px;
+left: 140px;
+top: 192px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 55px;
+line-height: 55px;
+/* or 100% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.feature-item{
+  position: absolute;
+width: 400px;
+height: 49px;
+left: 140px;
+top: 328px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+display: flex;
+align-items: center;
+color: #283136;
+}
+.nerds-index-slide1 {
+  position: absolute;
+width: 760px;
+height: 431px;
+left: 537px;
+top: 114px;
+
+background: url(nerds-index-slide1.png);
+}
+.picture-withn-nout{
+  position: absolute;
+width: 300px;
+height: 146px;
+left: 140px;
+top: 625px;
+
+background: url(illustration-1.png);
+}
+.feature-item-1{
+  /* Мир никогда не будет прежним после того как увидит ваш сайт! */
+position: absolute;
+width: 260px;
+height: 48px;
+left: 140px;
+top: 842px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+display: flex;
+align-items: center;
+color: #283136;
+
+/* Веб-сайты */
+position: absolute;
+width: 138px;
+height: 30px;
+left: 140px;
+top: 796px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #000000;
+/* identical to box height, or 125% */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #000000;
+/* Заказать */
+position: absolute;
+width: 160px;
+height: 50px;
+left: 140px;
+top: 922px;
+background: #FB565A;
+border-radius: 3px;
+
+/* УЗНАТЬ БОЛЬШЕ */
+position: absolute;
+width: 81px;
+height: 18px;
+left: 179px;
+top: 939px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height, or 112% */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.picture-with-telefon {
+  position: absolute;
+width: 300px;
+height: 146px;
+left: 540px;
+top: 625px;
+
+background: url(illustration-2.png);
+}
+.feature-item-2 {
+  /* Приложения */
+position: absolute;
+width: 169px;
+height: 30px;
+left: 540px;
+top: 796px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #000000;
+/* Покорите топ-10 приложений в AppStore и Google Play */
+position: absolute;
+width: 260px;
+height: 48px;
+left: 540px;
+top: 842px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+display: flex;
+align-items: center;
+color: #283136;
+/* btn */
+position: absolute;
+width: 160px;
+height: 50px;
+left: 540px;
+top: 922px;
+background: #00CA74;
+border-radius: 3px;
+/* Заказать */
+position: absolute;
+width: 81px;
+height: 18px;
+left: 579px;
+top: 939px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height, or 112% */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.picture-with-doska{
+  position: absolute;
+width: 300px;
+height: 146px;
+left: 940px;
+top: 625px;
+background: url(illustration-3.png);
+}
+.feature-item-3{
+  /* Презентации */
+position: absolute;
+width: 173px;
+height: 30px;
+left: 940px;
+top: 796px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #000000;
+
+/* Вы даже не подозреваете, насколько вы изумительны! */
+position: absolute;
+width: 260px;
+height: 49px;
+left: 940px;
+top: 842px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+display: flex;
+align-items: center;
+color: #283136;
+
+/* Заказать */
+position: absolute;
+width: 160px;
+height: 50px;
+left: 940px;
+top: 922px;
+background: #EFC849;
+border-radius: 3px;
+
+/* УЗНАТЬ БОЛЬШЕ */
+position: absolute;
+width: 81px;
+height: 18px;
+left: 979px;
+top: 939px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height, or 112% */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.information {
+  /* Исповедуем принципы минимализма и чистоты. Ставим математически */
+position: absolute;
+left: 9.72%;
+right: 45.42%;
+top: 50.48%;
+bottom: 47.54%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+display: flex;
+align-items: center;
+color: #283136;
+
+/* Мы — маленькая, но гордая дизайн-студия из Краснодара. */
+position: absolute;
+left: 9.72%;
+right: 45.07%;
+top: 45.52%;
+bottom: 50.81%;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 45px;
+/* or 100% */
+display: flex;
+align-items: center;
+color: #000000;
+}
+.orders{
+  /* Веб-сайтов любой сло */
+position: absolute;
+left: 11.94%;
+right: 60.35%;
+top: 55.98%;
+bottom: 39.18%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+color: #283136;
+
+/* Выполняем заказы на */
+position: absolute;
+height: 24px;
+left: 9.72%;
+right: 69.03%;
+top: calc(50% - 24px/2 + 113px);
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-transform: uppercase;
+color: #283136;
+
+/* Rectangle 10 */
+position: absolute;
+width: 25px;
+height: 2px;
+left: 140px;
+top: 1397px;
+background: #FB565A;
+
+/* Rectangle 11 */
+position: absolute;
+width: 25px;
+height: 2px;
+left: 140px;
+top: 1445px;
+background: #FB565A;
+
+/* Rectangle 12 */
+position: absolute;
+width: 25px;
+height: 2px;
+left: 140px;
+top: 1493px;
+background: #FB565A;
+}
+.nerds-illustration-1{
+  position: absolute;
+width: 360px;
+height: 208px;
+left: 940px;
+top: 1093px;
+background: url(nerds-illustration.png);
+}
+.statistics{
+  /* с 2004 года Любим точность во всем: */
+position: absolute;
+left: 65.42%;
+right: 9.72%;
+top: 54.04%;
+bottom: 44.99%;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+/* 146 */
+position: absolute;
+height: 64px;
+left: 65.28%;
+right: 29.31%;
+top: calc(50% - 64px/2 + 187px);
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 64px;
+/* identical to box height, or 142% */
+color: #000000;
+
+/* % */
+position: absolute;
+height: 40px;
+left: 70.69%;
+right: 27.92%;
+top: calc(50% - 40px/2 + 178px);
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 40px;
+/* identical to box height, or 154% */
+color: #000000;
+
+/* Уровень самоотдачи */
+position: absolute;
+left: 65.28%;
+right: 26.46%;
+top: 59.25%;
+bottom: 39.26%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+/* or 112% */
+display: flex;
+align-items: center;
+color: #283136;
+
+/* 100 */
+position: absolute;
+left: 73.61%;
+right: 20.97%;
+top: 56.26%;
+bottom: 41.16%;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 64px;
+/* identical to box height, or 142% */
+color: #000000;
+
+/* % */
+position: absolute;
+height: 40px;
+left: 79.03%;
+right: 19.58%;
+top: calc(50% - 40px/2 + 178px);
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 40px;
+/* identical to box height, or 154% */
+color: #000000;
+
+/* Соблюдение сроков */
+position: absolute;
+left: 73.61%;
+right: 17.71%;
+top: 59.29%;
+bottom: 39.22%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+
+/* or 112% */
+display: flex;
+align-items: center;
+color: #283136;
+
+/* 50 */
+position: absolute;
+left: 81.81%;
+right: 14.58%;
+top: 56.26%;
+bottom: 41.16%;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 64px;
+/* identical to box height, or 142% */
+color: #000000;
+
+/* % */
+position: absolute;
+height: 40px;
+left: 85.42%;
+right: 13.19%;
+top: calc(50% - 40px/2 + 178px);
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 40px;
+/* identical to box height, or 154% */
+color: #000000;
+
+/* Минимальная предоплата */
+position: absolute;
+left: 81.88%;
+right: 8.75%;
+top: 59.29%;
+bottom: 39.22%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+/* or 112% */
+display: flex;
+align-items: center;
+color: #283136;
+}
+.logo-htmlacademy{
+  position: absolute;
+width: 199px;
+height: 67.82px;
+left: 172px;
+top: 1644px;
+opacity: 0.2;
+}
+.logo-Borodinski {
+  position: absolute;
+width: 209px;
+height: 90px;
+left: 466px;
+top: 1627px;
+background: url(logo-2.png);
+opacity: 0.2;
+}
+.logo-pink{
+  position: absolute;
+width: 185px;
+height: 52px;
+left: 779px;
+top: 1646px;
+background: url(logo-3.png);
+opacity: 0.2;
+}
+.logo-mishka{
+  position: absolute;
+width: 173px;
+height: 84px;
+left: 1084px;
+top: 1633px;
+background: url(logo-4.png);
+opacity: 0.2;
+  }
+.footer-maps{
+  /* map 1 */
+position: absolute;
+width: 1440px;
+height: 416px;
+left: 0px;
+top: 1843px;
+background: url(map.jpg);
+
+/* map-marker 1 */
+position: absolute;
+width: 231px;
+height: 190px;
+left: 822px;
+top: 1929px;
+background: url(map-marker.png);
+}
+.footer-contacts{
+  /* Rectangle 18 */
+position: absolute;
+width: 319px;
+height: 308px;
+left: 140px;
+top: 1897px;
+background: #FFFFFF;
+  /* NЁRDS DESIGN STUDIO */
+
+
+position: absolute;
+width: 193px;
+height: 30px;
+left: 190px;
+top: 1946px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #000000;
+
+/* 191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 тел. +7 ( */
+position: absolute;
+width: 230px;
+height: 72px;
+left: 190px;
+top: 1998.71px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+/* or 112% */
+display: flex;
+align-items: center;
+color: #666666;
+
+/* btn */
+position: absolute;
+width: 219px;
+height: 50px;
+left: 190px;
+top: 2108px;
+background: #FB565A;
+border-radius: 3px;
+
+/* Напишите нам */
+position: absolute;
+width: 131px;
+height: 18px;
+left: 234px;
+top: 2125px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height, or 112% */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.footer-text{
+  /* Давайте дружить, это выгодно! */
+position: absolute;
+width: 660px;
+height: 36px;
+left: 540px;
+top: 2334px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 36px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+color: #000000;
+
+/* Скидка 10% для друзей из социальных сетей. */
+position: absolute;
+width: 373px;
+height: 22px;
+left: 540px;
+top: 2380px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 137% */
+display: flex;
+align-items: center;
+color: #444444;
+}
+.footer-social {
+  /* Shape 2 copy 3 */
+position: absolute;
+width: 81px;
+height: 81px;
+left: 140px;
+top: 2327px;
+background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
+
+/* Shape 2 copy 4 */
+position: absolute;
+width: 81px;
+height: 81px;
+left: 230px;
+top: 2327px;
+background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
+
+/* fb-icon */
+position: absolute;
+width: 12px;
+height: 22px;
+left: 265px;
+top: 2358px;
+
+/* Shape 2 copy 5 */
+position: absolute;
+width: 81px;
+height: 81px;
+left: 320px;
+top: 2327px;
+background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
+
+/* vk-icon */
+position: absolute;
+width: 26.01px;
+height: 15px;
+left: 167px;
+top: 2360px;
+
+/* insta-icon */
+position: absolute;
+width: 21px;
+height: 21px;
+left: 350px;
+top: 2357px;
+}
