@@ -3,75 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <title>Каталог — Фирма "нердс"</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-    <nav>
-    <a href="index.html"><img src="img/index-logo.svg" width="159.87" height="153" alt="Логотип студии «Nerds»"></a>
-    <ul>
-      <li><a href=""Студия></a></li>
+<body class="page-body inner-page">
+    <header class="main-header">
+    <nav class="main-navigation">
+    <a class="main-header-logo" >
+      <img src="img/index-logo.svg" width="159.87" height="153" alt="Логотип студии «Nerds»">
+    </a>
+    <ul class="site-navigation">
+      <li><a href="">Студия></a></li>
       <li><a href="">Клиенты</a></li>
       <li><a href="catalog.html">Магазин</a></li>
       <li><a href="">Контакты</a></li>
     </ul>
-    <a href="blank.html">Корзина</a>
+    <a class="bakset-link" href="blank.html">Корзина</a>
     </nav>
     </header>
-<main>
-  <h1>Магазин готовых шаблонов</h1>
-<section>
+<main class="page-catalog container">
+  <h1 class="page-title">Магазин готовых шаблонов</h1>
+<section class="filter">
     <h2>Фильтр товаров</h2>
     <!-- Здесь будет форма фильтра -->
   </section>
-<section>
-    <h2>Список готовых шаблонов</h2>
-    <li>
+<section class="catalog">
+    <h2 class="visually-hidden">Список готовых шаблонов</h2>
+    <li class="catalog-item">
       <div>
-        <a>Sedona</a>
-<p>Информационный сайт для туристов «Sedona»</p>
-<p>9900 ₽</p>
+        <a href="#">Sedona</a>
+<p class="catalog-item-information">Информационный сайт для туристов «Sedona»</p>
+<p class="catalog-item-price">9900 ₽</p>
 </div>
-<img src="img-sedona 1.jpg" width="360" height="576" alt="Информационный сайт для туристов «Sedona»">
+<img src="img/img-sedona-1.jpg" width="360" height="576" alt="Информационный сайт для туристов «Sedona»">
 </li>
 <li>
 <div>
-        <a>Pink</a>
-<p>Информационный сайт приложения «Pink»</p>
-<p>9900 ₽</p>
+        <a href="#">Pink</a>
+<p class="catalog-item-information">Информационный сайт приложения «Pink»</p>
+<p class="catalog-item-price">9900 ₽</p>
 </div>
-<img src="img-pink 1 .jpg" width="358" height="576" alt="Информационный сайт приложения «Pink»">
+<img src="img/img-pink-1.jpg" width="358" height="576" alt="Информационный сайт приложения «Pink»">
 </li>
         <li>
 <div>
-<a>«Borodinski»</a>
-<p>Сайт барбершопа «Borodinski»<p>
-<p>9900</p>
+<a href="#">«Borodinski»</a>
+<p class="catalog-item-information">Сайт барбершопа «Borodinski»<p>
+<p class="catalog-item-price">9900</p>
 </div>
-<img src="img-barbershop 1 .jpg" width="364" height="582" alt="Сайт барбершопа «Borodinski»">
+<img src="img/img-barbershop-1.jpg" width="364" height="582" alt="Сайт барбершопа «Borodinski»">
         </li>
 <li>
 <div>
-        <a>«Mishka»</a>
-<p>Сайт рукоделия «Mishka»</p>
-<p>9900</p>
+        <a href="#">«Mishka»</a>
+<p class="catalog-item-information">Сайт рукоделия «Mishka»</p>
+<p class="catalog-item-price">9900</p>
 </div>
-<img src="img-mishka 1 .jpg" width="362" height="580" alt="Сайт рукоделия «Mishka»">
+<img src="img/img-mishka-1.jpg" width="362" height="580" alt="Сайт рукоделия «Mishka»">
 </li>
 <li>
 <div>
-        <a>«А+»</a>
-<p>Сайт обучения «А+»</p>
-<p>9900</p>
+        <a href="#">«А+»</a>
+<p class="catalog-item-information">Сайт обучения «А+»</p>
+<p class="catalog-item-price">9900</p>
 </div>
-<img src="img-aplus 1 .jpg" width="364" height="582" alt="Сайт обучения «А+»">
+<img src="img/img-aplus-1.jpg" width="364" height="582" alt="Сайт обучения «А+»">
  </li>
 <li>
 <div>
-        <a>«Кваст»
-<p>Сайт крафтовых напитков «Кваст»</p>
-<p>9900</p>
+        <a href="#">«Кваст»
+<p class="catalog-item-information">Сайт крафтовых напитков «Кваст»</p>
+<p class="catalog-item-price">9900</p>
 </div>
-<img src="img-kvast 1  .jpg" width="362" height="580" alt="Сайт крафтовых напитков «Кваст»">
+<img src="img/img-kvast-1.jpg" width="362" height="580" alt="Сайт крафтовых напитков «Кваст»">
 </li>
   <ul>
       <li>
@@ -87,31 +92,31 @@
         <a href="#">Следующая</a>
       </li>
     </ul>
-       <footer>
-      <section>
+       <footer class="page-footer-main-footer">
+      <section class="footer-maps">
         <a href="#">
-         <img src=" map 1.jpg" width="1440" height="416" alt="карта "></a>
-         <img src=" map-marker 1.jpg" width="231" height="190" alt="маркер на карте ">
+         <img src="img/map-1.jpg" width="1440" height="416" alt="карта "></a>
+         <img src="img/map-marker-1.jpg" width="231" height="190" alt="маркер на карте ">
        </section>
-       <section>
+       <section class="footer-contacts">
           <h2>NёRDS DESIGN STUDIO</h2>
           <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
             тел. +7(812)275-75-75</p>
             <a>Напишите нам</a>
             <section>
-    <h2>Давайте дружить!</h2>
+    <h2 class="footer-text">Давайте дружить!</h2>
 <p>Скидка 10% для друзей из социальных сетей.</p>
   </section>
   <section>
     <ul>
       <li>
-        <a href="#">Вконтакте</a>
+        <a class="social-button" href="#">Вконтакте</a>
       </li>
       <li>
-        <a href="#">Фейсбук</a>
+        <a class="social-button" href="#">Фейсбук</a>
       </li>
       <li>
-        <a href="#">Инстаграм</a>
+        <a class="social-button" href="#">Инстаграм</a>
       </li>
     </ul>
     </section>

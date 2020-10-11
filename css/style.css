@@ -237,3 +237,27 @@ background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
 
 
 /* insta-icon */
+
+/* catalog */
+.page-title {
+  font-size: 55px;
+  line-height: 55px;
+}
+.catalog-list {
+  list-style: none;
+}
+.catalog-item h3 {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.catalog-category {
+  text-transform: none;
+}
+
+.catalog-item-price b {
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  background-color: #FFFFFF;
+}
